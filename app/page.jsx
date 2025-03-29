@@ -6,6 +6,11 @@ import Stats from "@/components/Stats";
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 
+export const metadata = {
+  title: "Seungjun Chong | Portfolio",
+  description: "Software Developer – Portfolio of Seungjun Chong",
+};
+
 const Home = () => {
   return (
     <section className="h-full">

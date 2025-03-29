@@ -20,6 +20,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <title>Seungjun Chong | Software Developer</title>
+        <meta name="description" content="Portfolio of Seungjun Chong" />
+      </head>
       <body className={jetbrainsMono.variable}>
         <Header />
         <StairTransition />
