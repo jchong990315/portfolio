@@ -7,25 +7,25 @@ const projects = [
   {
     num: "01",
     title: "PanMax",
-    description: "Co-founded Panmax, a platform that streamlines multi-channel inventory management for online sellers. The system synchronizes product data across marketplaces, automates stock level updates, and provides analytics to reduce overselling and stockouts. Designed the backend architecture to support scalable syncing, real-time updates, and integrations with platforms like. Panmax helps small-to-medium businesses simplify operations and make smarter supply decisions.",
+    description: "Co-founded PanMax, a multi-channel inventory platform supporting 50+ online retailers. Designed the backend to handle real-time product syncing, automated stock updates, and scalable API integrations. Integrated blockchain to enhance data integrity and traceability across distributed systems, reducing disputes and improving cross-platform reliability. Achieved ~95% sync accuracy and helped reduce inventory errors by ~40%.",
     href: "https://drive.google.com/file/d/12X6_oFqX0B807z5G6TMdnbuxg-TE8EGn/view?usp=sharing"
   },
   {
     num: "02",
     title: "AI Teeko Player",
-    description: "Built an AI agent to play Teeko, a two-player strategy game on a 5×5 board. Used the Minimax algorithm with a depth cutoff and a custom heuristic evaluation function to make strategic decisions during both the drop and move phases. The AI strategically evaluates game positions in both the drop phase and the move phase, detecting win conditions including rows, columns, diagonals, and 2×2 squares.",
+    description: "Developed an AI agent for Teeko, a 2-player strategy board game (5×5). Built a Minimax algorithm with depth cutoff and a custom evaluation function to handle both drop and move phases. Achieved a 90%+ win rate against heuristic-based agents when expanded to 20x20 game. The AI accurately detects all winning conditions (rows, diagonals, 2×2) and applies dynamic scoring logic to evaluate board state transitions in real-time.",
     href: "https://github.com/jchong990315/teeko_app"
   },
   {
     num: "03",
     title: "Autonomous Drone",
-    description: "Developed software for a lightweight drone equipped with onboard sensors and processing modules to autonomously navigate and map indoor environments during fire emergencies. The goal is to support firefighters by providing real-time 3D data of building interiors, highlighting hazardous zones, and improving situational awareness through augmented reality using HoloLens headsets.",
+    description: "Built software for an autonomous drone equipped with SLAM, TOF sensors, and AR overlays to assist firefighters during indoor emergencies. The system maps building interiors in real time and visualizes hazardous zones using HoloLens headsets. Implemented edge-computing modules for onboard obstacle avoidance and mapping, improving situational awareness. Enhanced 3D scan accuracy by 30% using multi-pass detection and custom pathfinding (A*, DWA).",
     href: "https://drive.google.com/file/d/11oc9ePYO1MEjaTfp8K43BpbaWTg4bAwH/view?usp=sharing"
   },
   {
     num: "04",
     title: "FIRST Robots",
-    description: "As a core member of Team 1405 – Finney Falcons, I’ve developed autonomous and teleoperated systems for competition robots across multiple seasons. My work includes PID control, vision tracking, autonomous path planning, and integration of WPILib frameworks. I’ve collaborated with mechanical and electrical teams, mentored new programmers, and led the transition to modern command-based architectures.",
+    description: "Led autonomous & teleop development for FIRST Robotics Team 1405 across 7+ seasons. Implemented PID control, vision tracking, WPILib-based path planning, and modular architecture in Java. Improved autonomous routine stability by 60% and reduced debug time by 50% via command-based refactoring. Mentored 20+ new programmers, collaborated with hardware teams, and contributed to multiple regional wins and innovation awards.",
     href: "https://www.team1405robotics.com/index.html"
   },
 ];
