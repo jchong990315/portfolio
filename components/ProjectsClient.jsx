@@ -28,6 +28,12 @@ const projects = [
     description: "Led autonomous & teleop development for FIRST Robotics Team 1405 across 7+ seasons. Implemented PID control, vision tracking, WPILib-based path planning, and modular architecture in Java. Improved autonomous routine stability by 60% and reduced debug time by 50% via command-based refactoring. Mentored 20+ new programmers, collaborated with hardware teams, and contributed to multiple regional wins and innovation awards.",
     href: "https://www.team1405robotics.com/index.html"
   },
+  {
+    num: "05",
+    title: "CLI Vending Machine",
+    description: "Engineered a full-stack vending machine system with a command-line interface to simulate real-time purchasing, inventory management, and Stripe-powered credit card processing. Designed and implemented RESTful APIs using Django and MySQL to manage channel-based inventory and track transaction logs. Containerized the project using Docker for consistent deployment; wrote modular CLI scripts for both customer and admin roles",
+    href: "https://github.com/jchong990315/Vending_Machine"
+  },
 ];
 
 import { motion } from "framer-motion";
