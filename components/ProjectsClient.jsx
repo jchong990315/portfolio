@@ -28,12 +28,6 @@ const projects = [
     description: "As a core member of Team 1405 – Finney Falcons, I’ve developed autonomous and teleoperated systems for competition robots across multiple seasons. My work includes PID control, vision tracking, autonomous path planning, and integration of WPILib frameworks. I’ve collaborated with mechanical and electrical teams, mentored new programmers, and led the transition to modern command-based architectures.",
     href: "https://www.team1405robotics.com/index.html"
   },
-  {
-    num: "05",
-    title: "AI Vending Machine Profit Optimization",
-    description: "Developing a full-stack API for a smart vending machine system that integrates real-time inventory management, transaction handling, and payment processing. Implemented an AI-based analytics module that monitors sales trends and recommends optimal restocking strategies to maximize profit. The system supports user authentication, hardware integration (Arduino-compatible), and future extensibility for physical deployment.",
-    href: "https://medium.com/@jchong990315/smartvend-a-stripe-powered-ai-driven-vending-machine-in-your-terminal-bfd8fc136b46"
-  },
 ];
 
 import { motion } from "framer-motion";
