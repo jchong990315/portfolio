@@ -22,11 +22,10 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 // about data
 const about = {
   title: "About me",
-  description: "Hi, I’m Seungjun Chong — a developer with a passion for building efficient, scalable, and user-focused applications. I enjoy bridging the gap between design and functionality, and I’m always exploring ways to make technology more accessible and impactful. Whether it’s a robotics system or a web app, I love solving challenges with code.",
+  description: "Hi, I’m Seungjun Chong — a full-stack developer passionate about building real-world systems that solve real-world problems. My background spans robotics control software, web app architecture, and applied machine learning. I thrive at the intersection of design and engineering, often working across the stack to deliver solutions that are both functional and elegant. Whether it’s optimizing a backend process or designing user-friendly interfaces, I focus on creating impactful tools that improve everyday experiences.",
   info: [
     { fieldName: "Name", fieldValue: "Seungjun Chong" },
     { fieldName: "Phone", fieldValue: "(+1) 608 440 5810" },
-    { fieldName: "Experience", fieldValue: "4+ Years" },
     { fieldName: "Email", fieldValue: "jchong990315@gmail.com" },
     { fieldName: "Address", fieldValue: "Madison, Wisconsin" },
     { fieldName: "Languages", fieldValue: "English, Korean" },
@@ -37,7 +36,7 @@ const about = {
 const experience = {
   icon: '/assets/resume/badge.svg',
   title: 'My experience',
-  description: "Over the past several years, I've gained hands-on experience in software engineering, from building control systems for robotics to developing full-stack web applications. My work spans research assistance in university labs to real-world projects at startups and tech teams. I value clean code, collaboration, and solving meaningful problems.",
+  description: "Over the past several years, I’ve gained hands-on experience in software engineering — from building autonomous navigation systems with ROS and SLAM to developing full-stack web platforms with AI optimization. My background includes research in drone-based 3D mapping, real-world deployment of inventory systems, and mentoring robotics teams. I’ve worked across university labs, startups, and collaborative tech teams, where I value clean architecture, curiosity-driven development, and solving impactful problems with code.",
   items: [
     {
       company: "FIRST Robotics Team 1405",
@@ -61,11 +60,11 @@ const experience = {
 const education = {
   icon: '/assets/resume/cap.svg',
   title: 'My education',
-  description: "I’m currently pursuing a Bachelor of Science in Computer Science and a Certificate in Mathematics at the University of Wisconsin–Madison. My studies focus on algorithm design, software architecture, and applied machine learning, supported by a solid foundation in theoretical computer science and math.",
+  description: "I’m pursuing a B.S. in Computer Science and a Certificate in Mathematics at the University of Wisconsin–Madison, graduating in 2025. My coursework emphasizes algorithm design, system architecture, and applied machine learning, grounded in a strong foundation in theoretical computer science and discrete math. Through hands-on projects and research experience, I’ve developed practical skills in full-stack development, problem solving, and writing clean, efficient code.",
   items: [
     {
       institution: "University of Wisconsin - Madison",
-      degree: "Bachelor of Science in Computer Science",
+      degree: "B.S. in Computer Science",
       duration: "September 2019 – August 2025",
     },
     {
@@ -79,7 +78,7 @@ const education = {
 // skills data
 const skills = {
   title: "My skills",
-  description: "My technical skillset covers a wide range of modern tools and languages across the full stack. From Java and Python for backend development to React and Tailwind CSS on the frontend, I'm comfortable working in diverse environments. I’m also experienced with tools like Docker, Git, and AWS for deployment and infrastructure.",
+  description: "I have hands-on experience across the full stack, using modern languages and frameworks to build scalable, user-friendly applications. On the backend, I work with Java (Spring Boot) and Python (Django, Flask), while on the frontend I’m proficient in React, Next.js, and Tailwind CSS. I'm comfortable with relational databases like MySQL and PostgreSQL, and I regularly use Git, Docker, and AWS (EC2, S3, RDS) for version control, containerization, and cloud deployment. I thrive in collaborative environments and prioritize writing clean, maintainable code.",
   skillList: [
     { icon: <FaJava />, name: "Java" },
     { icon: <FaPython />, name: "Python" },
