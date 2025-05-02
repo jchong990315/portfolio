@@ -39,14 +39,14 @@ const experience = {
   description: "Over the past several years, I’ve gained hands-on experience in software engineering — from building autonomous navigation systems with ROS and SLAM to developing full-stack web platforms with AI optimization. My background includes research in drone-based 3D mapping, real-world deployment of inventory systems, and mentoring robotics teams. I’ve worked across university labs, startups, and collaborative tech teams, where I value clean architecture, curiosity-driven development, and solving impactful problems with code.",
   items: [
     {
+      company: "THEARHAN",
+      position: "Co-founder",
+      duration: "2019 – Present",
+    },
+    {
       company: "FIRST Robotics Team 1405",
       position: "Software Engineer",
       duration: "2016 – Present",
-    },
-    {
-      company: "THEARHAN",
-      position: "Software Engineer",
-      duration: "2019 – 2021",
     },
     {
       company: "University of Wisconsin - Madison CS Lab",

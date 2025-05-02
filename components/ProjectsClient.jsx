@@ -7,32 +7,38 @@ const projects = [
   {
     num: "01",
     title: "PanMax",
-    description: "Co-founded PanMax, a multi-channel inventory platform supporting 50+ online retailers. Designed the backend to handle real-time product syncing, automated stock updates, and scalable API integrations. Integrated blockchain to enhance data integrity and traceability across distributed systems, reducing disputes and improving cross-platform reliability. Achieved ~95% sync accuracy and helped reduce inventory errors by ~40%.",
+    description: "A multi-channel inventory platform supporting 50+ online retailers. Designed the backend to handle real-time product syncing, automated stock updates, and scalable API integrations. Integrated blockchain to enhance data integrity and traceability across distributed systems, reducing disputes and improving cross-platform reliability. Achieved ~95% sync accuracy and helped reduce inventory errors by ~40%.",
     href: "https://drive.google.com/file/d/12X6_oFqX0B807z5G6TMdnbuxg-TE8EGn/view?usp=sharing"
   },
   {
     num: "02",
-    title: "AI Teeko Player",
-    description: "Developed an AI agent for Teeko, a 2-player strategy board game (5×5). Built a Minimax algorithm with depth cutoff and a custom evaluation function to handle both drop and move phases. Achieved a 90%+ win rate against heuristic-based agents when expanded to 20x20 game. The AI accurately detects all winning conditions (rows, diagonals, 2×2) and applies dynamic scoring logic to evaluate board state transitions in real-time.",
-    href: "https://github.com/jchong990315/teeko_app"
+    title: "JustTip",
+    description: "Built an innovative auction platform using a bid-fee model inspired by poker dynamics—users pay per bid, not per sale. Designed a pricing algorithm balancing fairness and profitability. Enabled automated payment handling and user management with a secure, scalable backend.",
+    href: ""
   },
   {
     num: "03",
-    title: "Autonomous Drone",
-    description: "Built software for an autonomous drone equipped with SLAM, TOF sensors, and AR overlays to assist firefighters during indoor emergencies. The system maps building interiors in real time and visualizes hazardous zones using HoloLens headsets. Implemented edge-computing modules for onboard obstacle avoidance and mapping, improving situational awareness. Enhanced 3D scan accuracy by 30% using multi-pass detection and custom pathfinding (A*, DWA).",
-    href: "https://drive.google.com/file/d/11oc9ePYO1MEjaTfp8K43BpbaWTg4bAwH/view?usp=sharing"
+    title: "AI Agricultural Robots with Soil Analysis",
+    description: "Led a deep learning–driven robotics system to optimize farming. Developed a custom soil database tailored to Korean agriculture and deployed robots using computer vision to automate labor-intensive tasks. Boosted crop yields by 30% through targeted interventions.",
+    href: ""
   },
   {
     num: "04",
-    title: "FIRST Robots",
-    description: "Led autonomous & teleop development for FIRST Robotics Team 1405 across 7+ seasons. Implemented PID control, vision tracking, WPILib-based path planning, and modular architecture in Java. Improved autonomous routine stability by 60% and reduced debug time by 50% via command-based refactoring. Mentored 20+ new programmers, collaborated with hardware teams, and contributed to multiple regional wins and innovation awards.",
-    href: "https://www.team1405robotics.com/index.html"
+    title: "Autonomous Drone",
+    description: "Built software for an autonomous drone equipped with SLAM, TOF sensors, and AR overlays to assist firefighters during indoor emergencies. The system maps building interiors in real time and visualizes hazardous zones using HoloLens headsets. Implemented edge-computing modules for onboard obstacle avoidance and mapping, improving situational awareness. Enhanced 3D scan accuracy by 30% using multi-pass detection and custom pathfinding (A*, DWA).",
+    href: "https://drive.google.com/file/d/11oc9ePYO1MEjaTfp8K43BpbaWTg4bAwH/view?usp=sharing"
   },
   {
     num: "05",
     title: "CLI Vending Machine",
     description: "Engineered a full-stack vending machine system with a command-line interface to simulate real-time purchasing, inventory management, and Stripe-powered credit card processing. Designed and implemented RESTful APIs using Django and MySQL to manage channel-based inventory and track transaction logs. Containerized the project using Docker for consistent deployment; wrote modular CLI scripts for both customer and admin roles",
     href: "https://github.com/jchong990315/Vending_Machine"
+  },
+  {
+    num: "06",
+    title: "FIRST Robots",
+    description: "Led autonomous & teleop development for FIRST Robotics Team 1405 across 7+ seasons. Implemented PID control, vision tracking, WPILib-based path planning, and modular architecture in Java. Improved autonomous routine stability by 60% and reduced debug time by 50% via command-based refactoring. Mentored 20+ new programmers, collaborated with hardware teams, and contributed to multiple regional wins and innovation awards.",
+    href: "https://www.team1405robotics.com/index.html"
   },
 ];
 
