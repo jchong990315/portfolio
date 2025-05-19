@@ -12,30 +12,24 @@ const projects = [
   },
   {
     num: "02",
-    title: "JustTip",
-    description: "Built an innovative auction platform using a bid-fee model inspired by poker dynamics—users pay per bid, not per sale. Designed a pricing algorithm balancing fairness and profitability. Enabled automated payment handling and user management with a secure, scalable backend.",
-    href: ""
-  },
-  {
-    num: "03",
     title: "AI Agricultural Robots with Soil Analysis",
     description: "Led a deep learning–driven robotics system to optimize farming. Developed a custom soil database tailored to Korean agriculture and deployed robots using computer vision to automate labor-intensive tasks. Boosted crop yields by 30% through targeted interventions.",
     href: ""
   },
   {
-    num: "04",
+    num: "03",
     title: "Autonomous Drone",
     description: "Built software for an autonomous drone equipped with SLAM, TOF sensors, and AR overlays to assist firefighters during indoor emergencies. The system maps building interiors in real time and visualizes hazardous zones using HoloLens headsets. Implemented edge-computing modules for onboard obstacle avoidance and mapping, improving situational awareness. Enhanced 3D scan accuracy by 30% using multi-pass detection and custom pathfinding (A*, DWA).",
     href: "https://drive.google.com/file/d/11oc9ePYO1MEjaTfp8K43BpbaWTg4bAwH/view?usp=sharing"
   },
   {
-    num: "05",
+    num: "04",
     title: "CLI Vending Machine",
     description: "Engineered a full-stack vending machine system with a command-line interface to simulate real-time purchasing, inventory management, and Stripe-powered credit card processing. Designed and implemented RESTful APIs using Django and MySQL to manage channel-based inventory and track transaction logs. Containerized the project using Docker for consistent deployment; wrote modular CLI scripts for both customer and admin roles",
     href: "https://github.com/jchong990315/Vending_Machine"
   },
   {
-    num: "06",
+    num: "05",
     title: "FIRST Robots",
     description: "Led autonomous & teleop development for FIRST Robotics Team 1405 across 7+ seasons. Implemented PID control, vision tracking, WPILib-based path planning, and modular architecture in Java. Improved autonomous routine stability by 60% and reduced debug time by 50% via command-based refactoring. Mentored 20+ new programmers, collaborated with hardware teams, and contributed to multiple regional wins and innovation awards.",
     href: "https://www.team1405robotics.com/index.html"
