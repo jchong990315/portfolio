@@ -22,13 +22,13 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 // about data
 const about = {
   title: "About me",
-  description: "Hi, I’m Seungjun Chong — a full-stack developer passionate about building real-world systems that solve real-world problems. My background spans robotics control software, web app architecture, and applied machine learning. I thrive at the intersection of design and engineering, often working across the stack to deliver solutions that are both functional and elegant. Whether it’s optimizing a backend process or designing user-friendly interfaces, I focus on creating impactful tools that improve everyday experiences.",
+  description: "Hi, I’m Seungjun Chong — a full-stack developer and researcher passionate about building real-world systems that address meaningful challenges. I graduated from the University of Wisconsin–Madison and am currently conducting research at the Human-Centered Artificial Intelligence & Lab (HCAIL) at Seoul National University. My work explores the intersection of artificial intelligence, human-computer interaction, and system design, with the goal of creating technologies that are both innovative and impactful. My background spans robotics control software, web app architecture, and applied machine learning. I enjoy working across the stack, from backend optimization to crafting user-friendly interfaces, and I thrive on bridging design with engineering to deliver solutions that are both functional and elegant. Whether advancing research in AI or building tools that improve everyday experiences, I focus on developing systems that push the boundary between theory and practice.",
   info: [
     { fieldName: "Name", fieldValue: "Seungjun Chong" },
-    { fieldName: "Phone", fieldValue: "(+1) 608 440 5810" },
-    { fieldName: "Email", fieldValue: "jchong990315@gmail.com" },
-    { fieldName: "Address", fieldValue: "Madison, Wisconsin" },
+    { fieldName: "Phone", fieldValue: "(+82) 10 8855 2114" },
     { fieldName: "Languages", fieldValue: "English, Korean" },
+    { fieldName: "Email", fieldValue: "jchong990315@gmail.com" },
+    { fieldName: "Address", fieldValue: "Namyangju-si, Republic of Korea" },
   ],
 };
 
@@ -39,6 +39,11 @@ const experience = {
   description: "Over the past several years, I’ve gained hands-on experience in software engineering — from building autonomous navigation systems with ROS and SLAM to developing full-stack web platforms with AI optimization. My background includes research in drone-based 3D mapping, real-world deployment of inventory systems, and mentoring robotics teams. I’ve worked across university labs, startups, and collaborative tech teams, where I value clean architecture, curiosity-driven development, and solving impactful problems with code.",
   items: [
     {
+      company: "Seoul National University - HCAIL Lab",
+      position: "Researcher",
+      duration: "2025 – Present",
+    },
+    {
       company: "THEARHAN",
       position: "Co-founder",
       duration: "2019 – Present",
@@ -46,12 +51,12 @@ const experience = {
     {
       company: "FIRST Robotics Team 1405",
       position: "Software Engineer",
-      duration: "2016 – Present",
+      duration: "2016 – 2025",
     },
     {
       company: "University of Wisconsin - Madison CS Lab",
       position: "Software Engineer & Research Assistance",
-      duration: "2024 – Present",
+      duration: "2024 – 2025",
     },
   ]
 };
@@ -60,7 +65,7 @@ const experience = {
 const education = {
   icon: '/assets/resume/cap.svg',
   title: 'My education',
-  description: "I’m pursuing a B.S. in Computer Science and a Certificate in Mathematics at the University of Wisconsin–Madison, graduating in 2025. My coursework emphasizes algorithm design, system architecture, and applied machine learning, grounded in a strong foundation in theoretical computer science and discrete math. Through hands-on projects and research experience, I’ve developed practical skills in full-stack development, problem solving, and writing clean, efficient code.",
+  description: "I earned my B.S. in Computer Science with a Certificate in Mathematics from the University of Wisconsin–Madison. My studies emphasized algorithm design, system architecture, and applied machine learning, grounded in a strong foundation in theoretical computer science and discrete mathematics. Since graduating, I have been conducting research at the Human-Centered Artificial Intelligence & Lab (HCAIL) at Seoul National University, where I work at the intersection of AI, system design, and human-computer interaction. This experience has allowed me to expand beyond the classroom into applied research, building on my background in full-stack development, problem solving, and writing efficient, scalable code to contribute to impactful projects",
   items: [
     {
       institution: "University of Wisconsin - Madison",
