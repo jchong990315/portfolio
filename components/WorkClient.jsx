@@ -36,6 +36,16 @@ const projects = [
     live:'https://drive.google.com/file/d/1wB7SE6eDcRemtW1CKuN_NDpkk58nEjSl/view?usp=sharing',
     youtube: 'https://youtu.be/2lg_fBsiUto?si=4azJOMXb3sx3e46A',
   },
+  {
+    num: '03',
+    category: 'AR for Operating Room Equipment Placemnet',
+    title: 'project 3',
+    description: 'An AR application which displays ',
+    stack: [{ name: "Java" }, { name: "ROS" }, { name: "Computer Vision" }],
+    image: '/assets/work/thumb2.png',
+    live:'https://drive.google.com/file/d/1wB7SE6eDcRemtW1CKuN_NDpkk58nEjSl/view?usp=sharing',
+    youtube: 'https://youtu.be/2lg_fBsiUto?si=4azJOMXb3sx3e46A',
+  },
 ];
 
 const WorkClient = () => {
